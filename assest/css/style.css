@@ -52,7 +52,8 @@ a:hover{
 bottom: 667px;
 margin-left: 250px;
  animation: circle
-  2s ease-in-out infinite;
+  2s ease-in-out ;
+  
 
 
 }
@@ -70,9 +71,9 @@ position: absolute;
     background-color:rgb(255, 113, 90); ;
     width: 100px;
     height: 2px;
-      animation: slideIn 1s forwards;
+      animation: slideIn11 1s forwards;
 }
-    @keyframes slideIn {
+    @keyframes slideIn11 {
       0% {
         left: -100%;
         opacity: 0;
@@ -87,8 +88,6 @@ position: absolute;
 bottom: 570px;
      margin-left: 110px;
       font-size: 30px;
-
-   display: inline;
     font-family:'Inter', sans-serif;
 }
 .p3{
